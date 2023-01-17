@@ -19,7 +19,5 @@ jobs:
     
     - name: Create ZIP deployment package
       run: zip -r ${{ env.DEPLOY_PACKAGE_NAME }} ./ -x *.git*
-    
-    - name: Deploy to S3 bucket
   
 

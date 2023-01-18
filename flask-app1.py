@@ -1,30 +1,5 @@
-# ------------------------------------------------
-# Program by Nazim Huseynov
-#
-#
-# Version      Date           Info
-# 1.0          22-Dec-2021    Initial Version
-#
-# ----------------------------------------------
-from flask import Flask, render_template
-
+from flask import Flask 
 application = Flask(__name__)
-
-
-@application.route("/")
-def root():
-    return render_template("index.html")
-
-@application.route("/help")
-def helppage():
-    return render_template("help.html")
-
-@application.route("/hello")
-def index():
-    return "Hello World from Flask Hello Page.<b> v1.0"
-
-#--------Main------------------
-if __name__ == "__main__":
-    application.debug = True
-    application.run()
-#------------------------------
+@application.route('/') 
+def hello_world(): 
+    return 'Hello GitHub Actions World from Nazim Huseynov!'

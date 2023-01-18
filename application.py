@@ -9,5 +9,5 @@ def hello_from_nazim():
 def aboutme():
     return "<b><font color=green>My name is Nazim. I am a Cloud/DevOps Engineer!</font></b>"
 
-if __name__ == "__main__" 
+if __name__ == "__main__":
     application.run()

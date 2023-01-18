@@ -2,7 +2,7 @@ name: CI-CD-pipeline-to-AWS-ElasticBeanstalk
 env:
   EB_BUCKET_NAME: "flask-app1"
   EB_APPLICATION_NAME: "flaskapp"
-  EB_ENVIRONMENT_NAME: "flaskapp-env1"
+  EB_ENVIRONMENT_NAME: "flaskapp-env-1"
   DEPLOY_PACKAGE_NAME: "flaskapp_${{ github.sha }}.zip"
   AWS_REGION_NAME: "eu-west-3"
 on: 

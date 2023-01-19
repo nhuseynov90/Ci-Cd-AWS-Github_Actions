@@ -7,7 +7,7 @@ def hello_from_nazim():
 
 @application.route('/aboutme')
 def aboutme():
-    return "<b><font color=green>My name is Nazim. I am a Cloud/DevOps Engineer!</font></b>"
+    return "<b><font color=green>My name is Nazim :) I am a Cloud/DevOps Engineer!</font></b>"
 
 if __name__ == "__main__":
     application.run()
